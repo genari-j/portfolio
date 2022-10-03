@@ -73,6 +73,10 @@ export function Skills() {
                         <BsCheckLg />
                         <span>JWT</span>
                     </div>
+                    <div>
+                        <BsCheckLg />
+                        <span>NPM</span>
+                    </div>
                 </Card>
             </SkillCards>
         </Container>
