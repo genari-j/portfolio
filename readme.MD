@@ -1,4 +1,4 @@
-<img src="">
+<img src="https://raw.githubusercontent.com/victorgenari/portfolio/main/src/assets/ProjectImg/projectImg.jpg">
 
 # Projeto 'Portfólio' em Vite + React.js:
 
