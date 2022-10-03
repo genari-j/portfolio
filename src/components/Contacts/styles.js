@@ -35,7 +35,7 @@ export const ContactsBackg = styled.div`
     border-radius: 0.5rem;
     box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
 
-    background: url('../src/assets/Contacts/contact-me.jpg') no-repeat center/cover;
+    background: url('../src/assets/Contacts/contactBackg.jpg') no-repeat center/cover;
 `
 
 export const FirstDetail = styled.div`
