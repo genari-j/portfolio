@@ -8,10 +8,12 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 
     h2 {
         font-weight: 600;
+        margin: -1rem 0 -2rem 0;
+
         text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
     }
 

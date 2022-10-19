@@ -3,14 +3,25 @@ import styled from 'styled-components'
 
 export const Container = styled.footer`
     width: 100%;
-    height: 20rem;
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+    gap: 6rem;
+
+    padding: 2rem;
 
     background: linear-gradient(45deg, rgba(165, 42, 42, 0.5), rgba(128, 0, 0, 0.6), rgba(165, 42, 42, 0.5));
+
+    @media (max-width: 579px) {
+        gap: 4rem;
+    }
+
+    nav {
+        width: 100%;
+        max-width: 220px;
+    }
 
     nav ul {
         display: flex;
@@ -29,28 +40,12 @@ export const Container = styled.footer`
             }
         }
     }
-
-    @media (max-width: 655px) {
-        padding: 0 1rem;
-        gap: 2rem;
-    }
-
-    @media (max-width: 600px) {
-        height: 100%;
-
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
-        padding: 2rem 3rem;
-    }
-
-    @media (max-width: 488px) {
-        grid-template-columns: repeat(1, 1fr);
-        place-items: center;
-    }
 `
 
 export const LocalAndMap = styled.div`
+    width: 100%;
+    max-width: 220px;
+
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -68,12 +63,14 @@ export const LocalAndMap = styled.div`
         :hover {
             transition: .6s;
             width: 300px;
-            height: 175px;
         }
     }
 `
 
 export const CopyrightAndSocialMedias = styled.div`
+    width: 100%;
+    max-width: 220px;
+
     display: flex;
     flex-direction: column;
 
