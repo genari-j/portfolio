@@ -6,22 +6,23 @@ Este projeto foi desenvolvido no intuito de facilitar a interação com minhas h
 
 ## Funções de forma rápida:
 
-* Tenha acesso sobre minhas informações;
-* Perfil Pessoal;
-* Habilidades;
-* Formação Acadêmica;
-* Histórico Profissional;
-* Principais Projetos;
-* Contatos;
+- Tenha acesso sobre minhas informações;
+- Perfil Pessoal;
+- Habilidades;
+- Formação Acadêmica;
+- Histórico Profissional;
+- Principais Projetos;
+- Contatos;
 
 ### Obs:
-* Toda a aplicação está responsiva e utilizável em qualquer pixel entre telas.
+
+- Toda a aplicação está responsiva e utilizável em qualquer pixel entre telas.
 
 ## Techs/libs utilizadas:
 
-* Visual Studio Code (programa);
-* HTML;
-* Vite + React.js;
-* React-Router-Dom;
-* React-Icons;
-* Styled-Components;
+- Visual Studio Code (Editor Código-fonte);
+- HTML;
+- Vite + React.js;
+- React-Router-Dom;
+- React-Icons;
+- Styled-Components;
