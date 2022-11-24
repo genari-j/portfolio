@@ -63,18 +63,6 @@ export function Skills() {
                     </div>
                     <div>
                         <BsCheckLg />
-                        <span>Testes com Jest</span>
-                    </div>
-                    <div>
-                        <BsCheckLg />
-                        <span>Typescript</span>
-                    </div>
-                    <div>
-                        <BsCheckLg />
-                        <span>JWT</span>
-                    </div>
-                    <div>
-                        <BsCheckLg />
                         <span>NPM</span>
                     </div>
                 </Card>
