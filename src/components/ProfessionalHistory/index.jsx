@@ -1,10 +1,8 @@
-// CSS
 import {
-    Container, CurrentJob, DescriptionJob, TechsTitle,
+    Container, CurrentJob, LastJob, DescriptionJob, TechsTitle,
     SectionDetails, FisrtDetail, SecondDetail, PreviousServices,
     Card, TimeOfService
 } from './styles'
-
 
 export function ProfessionalHistory() {
     return (
@@ -17,18 +15,31 @@ export function ProfessionalHistory() {
                     <SecondDetail></SecondDetail>
                 </SectionDetails>
 
+                <h3>Frontend Developer</h3>
+
+                <span>Primi Tecnologia</span>
+                <span><TimeOfService>dez. de 2022 - O momento</TimeOfService> • 1 mês</span>
+                <span>Santana de Parnaíba, São Paulo - Brasil</span>
+                <DescriptionJob>Venho me adequando aos padrões/projetos da empresa e interagindo com a integração de novos projetos.</DescriptionJob>
+                <TechsTitle>Techs/Libs/Frameworks:</TechsTitle>
+                <p>Em análise ..</p>
+            </CurrentJob>
+
+            <LastJob>
+                <SectionDetails>
+                    <FisrtDetail></FisrtDetail>
+                    <SecondDetail></SecondDetail>
+                </SectionDetails>
+
                 <h3>Frontend Developer &#40;Freelancer&#41;</h3>
                 <span>XC Tech</span>
-                <span><TimeOfService>abr de 2022 - O momento</TimeOfService> • 6 meses</span>
+                <span><TimeOfService>jul. de 2022 - dez. de 2022</TimeOfService> - 6 meses</span>
                 <span>Barueri, São Paulo - Brasil</span>
-                <DescriptionJob>Desenvolvedor Front-end, focado em criações de novos projetos/interfaces com React.js. Procuro sempre
-                    criar aplicações com conteúdos modernos, com fácil entendimento/acessibilidade aos usuários. Faço parte do
-                    time de desenvolvimento responsável pela plataforma de delivery. Meu foco maior é o front-end, porém, também
-                    sou responsável por algumas funcionalidades do Back-end.</DescriptionJob>
+                <DescriptionJob>Desenvolvedor Front-end, focado em criações de novos projetos/interfaces com React.js. Sempre criando aplicações com conteúdos modernos, com fácil entendimento/acessibilidade aos usuários. Fiz parte do time de desenvolvimento responsável pela plataforma de delivery. Meu foco maior foi o front-end, porém, também fui responsável por algumas funcionalidades do Back-end.</DescriptionJob>
                 <TechsTitle>Techs/Libs/Frameworks:</TechsTitle>
-                <p>Javascript/Typescript, React.js - &#40;React Router Dom, ContextAPI, Styled Components, JWT&#41;</p>
-                <p>Node.js, Express, Consign, Knex, Bcrypt, Jwt, Passport, MySQL, API Restful.</p>
-            </CurrentJob>
+                <p>Javascript/Typescript, React.js - &#40;React Router Dom, Styled Components&#41;.</p>
+                <p>Node.js, Express, MySQL, API Restful.</p>
+            </LastJob>
 
             <PreviousServices>
                 <Card>

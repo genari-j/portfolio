@@ -1,9 +1,7 @@
-// CSS
 import {
     Container, ContactsBackg, ContactsName,
     FirstDetail, SecondDetail, ThirdDetail, FourthDetail
 } from "./styles";
-
 
 export function Contacts() {
     return (

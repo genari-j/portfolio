@@ -1,10 +1,6 @@
-// Icons
 import { FaFileCode, FaDatabase, FaEllipsisH } from 'react-icons/fa'
 import { BsCheckLg } from 'react-icons/bs'
-
-// CSS
 import { Container, SkillCards, Card } from './styles'
-
 
 export function Skills() {
     return (

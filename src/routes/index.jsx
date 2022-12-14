@@ -1,9 +1,5 @@
-// Rotas
 import { Routes, Route } from 'react-router-dom'
-
-// Pages
 import { Home } from '../pages/Home/index.jsx'
-
 
 export function RoutesApp() {
 

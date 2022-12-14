@@ -205,5 +205,11 @@ export const MenuMobile = styled.div`
                 }
             }
         }
+
+        @media (max-height: 415px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem 6rem;
+        }
     }
 `

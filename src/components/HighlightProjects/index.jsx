@@ -1,16 +1,12 @@
-// Imgs
 import DeliveryAppOne from '../../assets/HighlightProjects/deliveryStoreOne.jpg'
 import DeliveryAppTwo from '../../assets/HighlightProjects/deliveryStoreTwo.jpg'
 import patientSys from '../../assets/HighlightProjects/patientSys.jpg'
 import cardInRealTime from '../../assets/HighlightProjects/cardInRealTime.jpg'
-
-// CSS
 import {
     Container, DeliveryApp, FirstImageAndDescriptions,
     SecondImageAndUsersList, PatientSys, PatientDescriptions,
     CardSimulator, CardSimulatorDescriptions
 } from "./styles";
-
 
 export function HighlightProjects() {
     return (

@@ -36,6 +36,21 @@ export const CurrentJob = styled.div`
 
     position: relative;
 
+    margin: 0 0 2rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+`
+
+export const LastJob = styled.div`
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
     padding: 1rem;
     border-radius: 0.5rem;
 

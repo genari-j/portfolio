@@ -12,10 +12,6 @@ export const GlobalStyle = createGlobalStyle`
         list-style: none;
         font-family: 'Poppins', Arial, sans-serif;
         font-weight: 400;
-
-        a {
-            color: #000000;
-        }
     }
 
     html {
@@ -34,18 +30,16 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        /* Isso irá ajudar a fonte ficar mais detalhada/nítida entre os navegadores */
+        /* Fonte mais detalhada/nítida entre navegadores */
         -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+        cursor: pointer;
+        color: #000000;
     }
 
     button {
         cursor: pointer;
     }
-
-    // Tudo que estiver desabilitado na aplicação, irá pegar esses estilos
-    [disabled] {
-        opacity: 0.8;
-        cursor: not-allowed;
-    }
-
 `

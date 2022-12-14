@@ -1,10 +1,6 @@
-// Icons
 import { GiGraduateCap } from 'react-icons/gi'
 import { RiComputerFill } from 'react-icons/ri'
-
-// CSS
 import { Container, SectionContent, Card, EstacioIcon } from "./styles";
-
 
 export function AcademicEducation() {
     return (

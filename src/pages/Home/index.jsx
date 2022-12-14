@@ -1,7 +1,4 @@
-// Hooks
 import { useState } from 'react'
-
-// Components
 import { Header } from '../../components/Header'
 import { PersonalProfile } from '../../components/PersonalProfile'
 import { Skills } from '../../components/Skills'
@@ -10,13 +7,8 @@ import { ProfessionalHistory } from '../../components/ProfessionalHistory'
 import { HighlightProjects } from '../../components/HighlightProjects'
 import { Contacts } from '../../components/Contacts'
 import { Footer } from '../../components/Footer'
-
-// Icons
 import { TbArrowUp } from 'react-icons/tb'
-
-// CSS
 import { ArrowUp, Container, Divider } from './styles'
-
 
 export function Home() {
     const [arrowUp, setArrowUp] = useState(false)

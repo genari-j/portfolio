@@ -1,10 +1,6 @@
-// Icons
 import { FaLinkedinIn, FaGithub, FaMailBulk } from 'react-icons/fa'
 import { RiWhatsappFill } from 'react-icons/ri'
-
-// CSS
 import { Container, LocalAndMap, CopyrightAndSocialMedias } from './styles'
-
 
 export function Footer() {
     return (
