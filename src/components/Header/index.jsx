@@ -63,7 +63,7 @@ export function Header() {
                         <h2>João Victor Genari</h2>
                         <p>Sou desenvolvedor Front-end, focado em criações de novos projetos/interfaces com React.js. Procuro sempre
                             criar aplicações com conteúdos modernos, com fácil entendimento/acessibilidade aos usuários.</p>
-                        <a href="https://drive.google.com/file/d/1ZLB1SEfy_Sqq2F0E6Xx3v3oLLlfelRDA/view?usp=sharing" target="_blank" download><FiDownloadCloud /> Currículo</a>
+                        <a href="https://drive.google.com/file/d/1vEQC-eOhaytB--03NOOeC1XrAKuH6rIp/view?usp=share_link" target="_blank" download><FiDownloadCloud /> Currículo</a>
                     </div>
                 </SecondSectionContent>
             </SecondSection>
