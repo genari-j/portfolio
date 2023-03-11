@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { blue9, blue8, gray9 } from '../../themes/colors'
 
 export const Container = styled.section`
     width: 100%;
@@ -13,14 +13,14 @@ export const Container = styled.section`
         font-weight: 600;
         margin: 0 0 2rem 0;
 
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px 3px ${gray9};
     }
 
     h3 {
         font-weight: 600;
         margin: 0 0 0.5rem 0;
 
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px 3px ${gray9};
     }
 
     @media (max-width: 1080px) {
@@ -40,7 +40,7 @@ export const CurrentJob = styled.div`
     padding: 1rem;
     border-radius: 0.5rem;
 
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 `
 
 export const LastJob = styled.div`
@@ -54,7 +54,7 @@ export const LastJob = styled.div`
     padding: 1rem;
     border-radius: 0.5rem;
 
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 `
 
 export const DescriptionJob = styled.p`
@@ -66,7 +66,7 @@ export const TechsTitle = styled.span`
     font-weight: 600;
     margin: 0 0 0.5rem 0;
 
-    color: rgb(128, 0, 0);
+    color: ${blue9};
 `
 
 export const SectionDetails = styled.div`
@@ -103,9 +103,9 @@ export const FisrtDetail = styled.div`
     height: 100px;
 
     border-radius: 0 0 0 2rem;
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 
-    background: linear-gradient(45deg, rgb(128, 0, 0), rgba(128, 0, 0, 0.6), rgb(128, 0, 0));
+    background: linear-gradient(45deg, ${blue9}, ${blue8}, ${blue9});
 
     @media (max-width: 400px) {
         display: none;
@@ -117,9 +117,9 @@ export const SecondDetail = styled.div`
     height: 80px;
 
     border-radius: 0 0 2rem 0;
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
     
-    background: linear-gradient(45deg, rgb(128, 0, 0), rgba(128, 0, 0, 0.6), rgb(128, 0, 0));
+    background: linear-gradient(45deg, ${blue9}, ${blue8}, ${blue9});
 `
 
 export const PreviousServices = styled.div`
@@ -142,7 +142,7 @@ export const Card = styled.div`
     padding: 1rem;
     border-radius: 0.5rem;
 
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 `
 
 export const TimeOfService = styled.span`

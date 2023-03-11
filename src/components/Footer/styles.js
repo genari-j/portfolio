@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { white9, blue8, blue7, gray9 } from '../../themes/colors'
 
 export const Container = styled.footer`
     width: 100%;
@@ -12,7 +12,7 @@ export const Container = styled.footer`
 
     padding: 2rem;
 
-    background: linear-gradient(45deg, rgba(165, 42, 42, 0.5), rgba(128, 0, 0, 0.6), rgba(165, 42, 42, 0.5));
+    background: linear-gradient(45deg, ${blue7}, ${blue8}, ${blue7});
 
     @media (max-width: 579px) {
         gap: 4rem;
@@ -32,11 +32,9 @@ export const Container = styled.footer`
             font-weight: 600;
             cursor: pointer;
 
-            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-
             :hover {
                 transition: .3s;
-                color: rgba(0, 0, 0, 0.6);
+                color: ${white9};
             }
         }
     }
@@ -58,11 +56,11 @@ export const LocalAndMap = styled.div`
         cursor: pointer;
         border-radius: 0.5rem;
         
-        box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 0.5rem 0 ${gray9};
 
         :hover {
             transition: .6s;
-            width: 300px;
+            width: 275px;
         }
     }
 `
@@ -85,7 +83,7 @@ export const CopyrightAndSocialMedias = styled.div`
 
             :hover {
                 transition: .3s;
-                color: rgb(255, 255, 255);
+                color: ${white9};
             }
         }
     }

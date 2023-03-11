@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { black9, white9, gray8 } from "./colors";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -6,10 +7,12 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        text-decoration: none;
-        outline: none;
+        
         border: none;
+        outline: none;
+        text-decoration: none;
         list-style: none;
+
         font-family: 'Poppins', Arial, sans-serif;
         font-weight: 400;
     }
@@ -17,7 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     html {
 
         scroll-behavior: smooth;
-        background: rgba(0, 0, 0, 0.05);
+        background: ${gray8};
 
         @media (max-width: 1080px) {
             font-size: 93.75%; // 15px
@@ -30,16 +33,19 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        /* Fonte mais detalhada/nítida entre navegadores */
         -webkit-font-smoothing: antialiased;
     }
 
     a {
         cursor: pointer;
-        color: #000000;
+        color: ${black9};
     }
 
     button {
         cursor: pointer;
+    }
+
+    .selected {
+        color: ${white9};
     }
 `

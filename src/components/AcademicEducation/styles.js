@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { blue9, gray9, white9 } from '../../themes/colors'
 
 export const Container = styled.section`
     width: 100%;
@@ -14,7 +14,7 @@ export const Container = styled.section`
         font-weight: 600;
         margin: -1rem 0 -2rem 0;
 
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px 3px ${gray9};
     }
 
     @media (max-width: 955px) {
@@ -47,8 +47,8 @@ export const SectionContent = styled.div`
         padding: 1rem;
         border-radius: 50%;
 
-        color: rgba(255, 255, 255);
-        background: rgba(128, 0, 0, 0.8);
+        color: ${white9};
+        background: ${blue9};
 
         @media (max-width: 388px) {
             font-size: 2rem;
@@ -72,11 +72,11 @@ export const Card = styled.div`
 
     padding: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 
     h3 {
         font-weight: 600;
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px 3px ${gray9};
 
         margin: 0 0 0.5rem 0;
     }
@@ -95,8 +95,8 @@ export const EstacioIcon = styled.i`
     padding: 1rem;
     border-radius: 50%;
 
-    color: rgba(255, 255, 255);
-    background: rgba(128, 0, 0, 0.8);
+    color: ${white9};
+    background: ${blue9};
 
     @media (max-width: 388px) {
         font-size: 2rem;

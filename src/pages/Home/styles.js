@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { blue9 } from '../../themes/colors'
 
 
 export const Container = styled.div`
@@ -16,7 +17,7 @@ export const Divider = styled.div`
     margin: 3rem 0;
     border-radius: 1rem;
 
-    background: rgba(128, 0, 0, 0.8);
+    background: ${blue9};
 `
 
 export const ArrowUp = styled.div`

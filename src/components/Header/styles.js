@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { black9, blue7, blue8, blue9, gray8, gray9, white9 } from '../../themes/colors'
 
 
 export const Container = styled.header`
@@ -17,8 +18,8 @@ export const FirstSection = styled.section`
 
     padding: 0.5rem 0;
 
-    border-bottom: 2px solid rgb(0, 0, 0, 0.3);
-    background: rgb(128, 0, 0);
+    border-bottom: 2px solid ${blue7};
+    background: ${blue9};
 
     div:first-child {
         display: flex;
@@ -29,25 +30,19 @@ export const FirstSection = styled.section`
 
         a:first-child {
             font-size: 1.8rem;
-
-            @media (max-width: 815px) {
-                color: rgb(255, 255, 255);
-            }
+            color: ${blue7};
         }
 
         a:last-child {
             font-size: 1.6rem;
-
-            @media (max-width: 815px) {
-                color: rgb(255, 255, 255);
-            }
+            color: ${blue7};
         }
 
         a:hover {
             transition: .3s;
             cursor: pointer;
 
-            color: rgb(255, 255, 255);
+            color: ${white9};
         }
 
 
@@ -61,16 +56,14 @@ export const FirstSection = styled.section`
             font-size: 1.1rem;
             font-weight: 600;
 
-            color: rgba(255, 255, 255, 0.8);
-            text-shadow: 1px 1px 3px rgba(0, 0, 0);
+            color: ${blue7};
+            text-shadow: 1px 1px 3px ${black9};
 
             :hover {
                 transition: .3s;
                 cursor: pointer;
-                color: rgb(255, 255, 255);
+                color: ${white9};
             }
-
-
         }
 
         @media (max-width: 815px) {
@@ -88,7 +81,7 @@ export const FirstSection = styled.section`
             background: transparent;
 
             @media (max-width: 815px) {
-                color: rgb(255, 255, 255);
+                color: ${white9};
             }
         }
     }
@@ -107,7 +100,7 @@ export const SecondSection = styled.section`
     align-items: center;
     justify-content: center;
 
-    background: rgba(128, 0, 0, 0.6);
+    background: ${blue8};
 `
 
 export const SecondSectionContent = styled.div`
@@ -130,7 +123,7 @@ export const SecondSectionContent = styled.div`
     div:last-child {
         h2 {
             margin: 0 0 0.6rem 0;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+            text-shadow: 1px 1px 3px ${gray9};
         }
 
         a {
@@ -147,14 +140,15 @@ export const SecondSectionContent = styled.div`
             margin: 0.5rem 0 0 0;
             border-radius: 0.5rem;
 
+            transition: .3s;
+
             cursor: pointer;
 
-            color: rgb(255, 255, 255);
-            background: linear-gradient(45deg, rgba(165, 42, 42, 0.2), rgba(128, 0, 0, 0.6));
+            color: ${white9};
+            background: linear-gradient(45deg, ${blue9}, ${blue8});
 
             :hover {
-                transition: .3s;
-                background: rgba(128, 0, 0, 0.5);
+                background: ${blue9};
             }
         }
     }
@@ -185,7 +179,7 @@ export const MenuMobile = styled.div`
     z-index: 100;
 
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    background: rgba(0, 0, 0, 0.9);
+    background: ${black9};
 
     nav ul {
         display: flex;
@@ -196,12 +190,12 @@ export const MenuMobile = styled.div`
 
         li {
             a {
-                color: rgba(255, 255, 255, 0.8);
-                text-shadow: 1px 1px 3px rgba(0, 0, 0);
+                color: ${gray9};
+                text-shadow: 1px 1px 3px ${black9};
 
                 :hover {
                     transition: .3s;
-                    color: rgba(255, 255, 255);
+                    color: ${white9};
                 }
             }
         }

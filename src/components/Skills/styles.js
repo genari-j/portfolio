@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { white9, gray8, gray9, blue9 } from '../../themes/colors'
 
 
 export const Container = styled.section`
@@ -12,7 +13,7 @@ export const Container = styled.section`
 
     h2 {
         font-weight: 600;
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px 3px ${gray8};
     }
 
     @media (max-width: 670px) {
@@ -41,7 +42,7 @@ export const Card = styled.div`
     padding: 0 1rem;
     border-radius: 0.5rem;
 
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 
     i {
         display: flex;
@@ -53,14 +54,14 @@ export const Card = styled.div`
         margin: -2.9rem 0 0 0;
         border-radius: 50%;
 
-        color: rgba(255, 255, 255);
-        background: rgba(128, 0, 0, 0.8);
+        color: ${white9};
+        background: ${blue9};
     }
 
     h3 {
         font-weight: 600;
         margin: 0.5rem 0 1rem 0;
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px 3px ${gray8};
     }
 
     div {

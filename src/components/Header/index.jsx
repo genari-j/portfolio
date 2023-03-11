@@ -1,5 +1,5 @@
 // Hooks
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 // Icons
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
@@ -37,13 +37,13 @@ export function Header() {
 
                 <nav>
                     <ul>
-                        <li> <a href="#home">INÍCIO</a> </li>
-                        <li> <a href="#personalProfile">PERFIL</a> </li>
-                        <li> <a href="#skills">HABILIDADES</a> </li>
-                        <li> <a href="#academicEducation">FORMAÇÃO</a> </li>
-                        <li> <a href="#professionalHistory">HISTÓRICO</a> </li>
-                        <li> <a href="#highlightProjects">PROJETOS</a> </li>
-                        <li> <a href="#contacts">CONTATO</a> </li>
+                        <li> <a href="#home"> INÍCIO </a> </li>
+                        <li> <a href="#personalProfile"> PERFIL </a> </li>
+                        <li> <a href="#skills"> HABILIDADES </a> </li>
+                        <li> <a href="#academicEducation"> FORMAÇÃO </a> </li>
+                        <li> <a href="#professionalHistory"> HISTÓRICO </a> </li>
+                        <li> <a href="#highlightProjects"> PROJETOS </a> </li>
+                        <li> <a href="#contacts"> CONTATO </a> </li>
                     </ul>
                 </nav>
 

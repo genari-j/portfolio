@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { blue8, blue9, gray9 } from '../../themes/colors'
 
 export const Container = styled.section`
     width: 100%;
@@ -12,7 +12,7 @@ export const Container = styled.section`
     h2 {
         margin: 0 0 2rem 0;
         font-weight: 600;
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+        text-shadow: 3px 3px 3px ${gray9};
     }
 
     @media (max-width: 1078px) {
@@ -28,7 +28,7 @@ export const PersonalSection = styled.div`
     padding: 3rem 1rem;
     border-radius: 0.5rem;
 
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 
     img {
         width: 100%;
@@ -40,7 +40,7 @@ export const PersonalSection = styled.div`
 
         margin: 0 1.5rem 1rem 0;
         border-radius: 1rem;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 5px 5px 5px ${gray9};
     }
 
     p {
@@ -86,9 +86,9 @@ export const FisrtDetail = styled.div`
     height: 2rem;
 
     border-radius: 0 0 0 2rem;
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
 
-    background: linear-gradient(45deg, rgb(128, 0, 0), rgba(128, 0, 0, 0.6), rgb(128, 0, 0));
+    background: linear-gradient(45deg, ${blue9}, ${blue8}, ${blue9});
 `
 
 export const SecondDetail = styled.div`
@@ -96,7 +96,7 @@ export const SecondDetail = styled.div`
     height: 1.5rem;
 
     border-radius: 0 0 0 2rem;
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5rem 0 ${gray9};
     
-    background: linear-gradient(45deg, rgb(128, 0, 0), rgba(128, 0, 0, 0.6), rgb(128, 0, 0));
+    background: linear-gradient(45deg, ${blue9}, ${blue8}, ${blue9});
 `
