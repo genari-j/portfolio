@@ -16,7 +16,7 @@ export const FirstSection = styled.section`
     position: fixed;
     z-index: 100;
 
-    padding: 0.5rem 0;
+    padding: 1rem 0;
 
     border-bottom: 2px solid ${blue7};
     background: ${blue9};
@@ -26,7 +26,9 @@ export const FirstSection = styled.section`
         align-items: center;
         gap: 0.8rem;
 
-        margin: 0.5rem 0 0 0;
+        a {
+            display: flex;
+        }
 
         a:first-child {
             font-size: 1.8rem;
@@ -44,8 +46,6 @@ export const FirstSection = styled.section`
 
             color: ${white9};
         }
-
-
     }
 
     nav ul {
@@ -75,8 +75,9 @@ export const FirstSection = styled.section`
         display: none;
 
         button {
+            display: flex;
+
             font-size: 2rem;
-            margin: 0 0 -0.7rem 0;
 
             background: transparent;
 
