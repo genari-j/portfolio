@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { black9, blue7, blue8, blue9, gray8, gray9, white9 } from '../../themes/colors'
+import { black9, blue7, blue8, blue9, gray9, white9 } from '../../themes/colors'
 
 
 export const Container = styled.header`
