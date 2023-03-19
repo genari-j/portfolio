@@ -106,7 +106,7 @@ export const SecondSection = styled.section`
 
 export const SecondSectionContent = styled.div`
     width: 100%;
-    max-width: 1050px;
+    max-width: 1200px;
 
     display: flex;
     align-items: center;
@@ -116,7 +116,7 @@ export const SecondSectionContent = styled.div`
 
     div:first-child img {
         width: 100%;
-        max-width: 1000px;
+        max-width: 500px;
 
         border-radius: 50%;
     }
@@ -125,6 +125,10 @@ export const SecondSectionContent = styled.div`
         h2 {
             margin: 0 0 0.6rem 0;
             text-shadow: 1px 1px 3px ${gray9};
+        }
+
+        p {
+            margin: 0 0 0.3rem 0;
         }
 
         a {

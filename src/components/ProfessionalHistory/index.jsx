@@ -20,9 +20,11 @@ export function ProfessionalHistory() {
                 <span>Primi Tecnologia</span>
                 <span><TimeOfService>dez. de 2022 - O momento</TimeOfService> • 1 mês</span>
                 <span>Santana de Parnaíba, São Paulo - Brasil</span>
-                <DescriptionJob>Venho me adequando aos padrões/projetos da empresa e interagindo com a integração de novos projetos.</DescriptionJob>
+                <DescriptionJob>Desenvolvedor Frontend, criando soluções para atender as necessidades da empresa e interagindo com a integração de novos projetos. Hoje, estamos trabalhando no desenvolvimento de um aplicativo interno utilizando Flutter.</DescriptionJob>
                 <TechsTitle>Techs/Libs/Frameworks:</TechsTitle>
-                <p>Em análise ..</p>
+                <p>Javascript - React.js</p>
+                <p>Node.js, Express, MySQL, API Restful</p>
+                <p>Flutter/Dart</p>
             </CurrentJob>
 
             <LastJob>
@@ -37,13 +39,13 @@ export function ProfessionalHistory() {
                 <span>Barueri, São Paulo - Brasil</span>
                 <DescriptionJob>Desenvolvedor Front-end, focado em criações de novos projetos/interfaces com React.js. Sempre criando aplicações com conteúdos modernos, com fácil entendimento/acessibilidade aos usuários. Fiz parte do time de desenvolvimento responsável pela plataforma de delivery. Meu foco maior foi o front-end, porém, também fui responsável por algumas funcionalidades do Back-end.</DescriptionJob>
                 <TechsTitle>Techs/Libs/Frameworks:</TechsTitle>
-                <p>Javascript/Typescript, React.js - &#40;React Router Dom, Styled Components&#41;.</p>
+                <p>Javascript - React.js</p>
                 <p>Node.js, Express, MySQL, API Restful.</p>
             </LastJob>
 
             <PreviousServices>
                 <Card>
-                    <h3>Information Security Analyst</h3>
+                    <h3>Operational Leader</h3>
                     <span>Prime Work Sistemas &amp; Serviços</span>
                     <span><TimeOfService>fev. de 2015 - dez. de 2020</TimeOfService> - 5 anos 11 meses</span>
                     <span>Barueri, São Paulo - Brasil</span>

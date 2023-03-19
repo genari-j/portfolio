@@ -13,7 +13,7 @@ export function Skills() {
                     <h3>Frontend</h3>
                     <div>
                         <BsCheckLg />
-                        <span>React.js - Javascript</span>
+                        <span>HTML</span>
                     </div>
                     <div>
                         <BsCheckLg />
@@ -21,11 +21,19 @@ export function Skills() {
                     </div>
                     <div>
                         <BsCheckLg />
-                        <span>SASS &amp; Styled-Components</span>
+                        <span>React.js - Javascript</span>
                     </div>
                     <div>
                         <BsCheckLg />
-                        <span>HTML</span>
+                        <span>SCSS</span>
+                    </div>
+                    <div>
+                        <BsCheckLg />
+                        <span>SASS</span>
+                    </div>
+                    <div>
+                        <BsCheckLg />
+                        <span>Styled-Components</span>
                     </div>
                 </Card>
 
@@ -51,7 +59,15 @@ export function Skills() {
                     <h3>Outros</h3>
                     <div>
                         <BsCheckLg />
-                        <span>Git/Github</span>
+                        <span>Git</span>
+                    </div>
+                    <div>
+                        <BsCheckLg />
+                        <span>Github</span>
+                    </div>
+                    <div>
+                        <BsCheckLg />
+                        <span>Gitlab</span>
                     </div>
                     <div>
                         <BsCheckLg />
@@ -60,6 +76,10 @@ export function Skills() {
                     <div>
                         <BsCheckLg />
                         <span>NPM</span>
+                    </div>
+                    <div>
+                        <BsCheckLg />
+                        <span>Yarn</span>
                     </div>
                 </Card>
             </SkillCards>

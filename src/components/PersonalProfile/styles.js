@@ -68,6 +68,10 @@ export const PersonalSection = styled.div`
     }
 `
 
+export const Span = styled.span`
+    font-weight: 600;
+`
+
 export const SectionDetails = styled.div`
     width: 200px;
 
