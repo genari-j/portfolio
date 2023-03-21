@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import { Header } from '../../components/Header'
-import { PersonalProfile } from '../../components/PersonalProfile'
-import { Skills } from '../../components/Skills'
-import { AcademicEducation } from '../../components/AcademicEducation'
-import { ProfessionalHistory } from '../../components/ProfessionalHistory'
-import { HighlightProjects } from '../../components/HighlightProjects'
-import { Contacts } from '../../components/Contacts'
-import { Footer } from '../../components/Footer'
-import { TbArrowUp } from 'react-icons/tb'
-import { ArrowUp, Container, Divider } from './styles'
+import { useState } from 'react';
+import { Header } from '../../components/Header';
+import { PersonalProfile } from '../../components/PersonalProfile';
+import { Skills } from '../../components/Skills';
+import { AcademicEducation } from '../../components/AcademicEducation';
+import { ProfessionalHistory } from '../../components/ProfessionalHistory';
+import { HighlightProjects } from '../../components/HighlightProjects';
+import { Contacts } from '../../components/Contacts';
+import { FloatingContacts } from '../../components/FloatingContacts';
+import { Footer } from '../../components/Footer';
+import { TbArrowUp } from 'react-icons/tb';
+import { ArrowUp, Container, Divider } from './styles';
 
 export function Home() {
     const [arrowUp, setArrowUp] = useState(false)
@@ -49,6 +50,8 @@ export function Home() {
             <Contacts />
 
             <Divider id=""></Divider>
+
+            <FloatingContacts />
 
             <Footer />
 

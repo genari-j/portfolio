@@ -1,6 +1,7 @@
 export const white9 = '#FFFFFF';
 
 export const black9 = '#000000';
+export const black8 = '#00000080'
 
 export const blue9 = '#000839';
 export const blue8 = '#86A8E7';

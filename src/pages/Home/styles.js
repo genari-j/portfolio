@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { blue9 } from '../../themes/colors'
+import { black8, blue9, white9 } from '../../themes/colors'
 
 
 export const Container = styled.div`
@@ -35,20 +35,19 @@ export const ArrowUp = styled.div`
     font-size: 1.8rem;
     border-radius: 50%;
 
-    box-shadow: 0 0 0.5rem 0 rgb(128, 0, 0);
-    background: rgb(255, 255, 255);
+    box-shadow: 0 0 0.5rem 0 ${blue9};
+    background: ${white9};
 
     :hover {
         transition: .3s;
         font-size: 1.9rem;
-        box-shadow: 0 0 0.5rem 0 rgb(0, 0, 0, 0.5);
+        box-shadow: 0 0 0.5rem 0 ${black8};
     }
 
     a {
-        cursor: pointer;
         margin: 0 0 -0.5rem 0;
         
-        color: rgb(128, 0, 0);
+        color: ${blue9};
     }
 
     @media (max-width: 935px) {
