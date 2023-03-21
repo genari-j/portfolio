@@ -63,7 +63,7 @@ export function Header() {
                         <h2>João Victor Genari</h2>
                         <p>Como Programador, minha principal habilidade é desenvolver soluções de software para atender a necessidade do cliente.</p>
                         <p>Mais abaixo, incluí uma descrição sobre minha grade de conhecimentos/estudos para melhor entendimento.</p>
-                        <a href="https://drive.google.com/file/d/1vEQC-eOhaytB--03NOOeC1XrAKuH6rIp/view?usp=share_link" target="_blank" download><FiDownloadCloud /> Currículo</a>
+                        <a href="https://drive.google.com/file/d/1xw9mrs3lADg8kARTq5CFDT4OvttR41mc/view?usp=share_link" target="_blank" download><FiDownloadCloud /> Currículo</a>
                     </div>
                 </SecondSectionContent>
             </SecondSection>
