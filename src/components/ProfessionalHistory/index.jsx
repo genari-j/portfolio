@@ -18,7 +18,7 @@ export function ProfessionalHistory() {
                 <h3>Frontend Developer</h3>
 
                 <span>Primi Tecnologia</span>
-                <span><TimeOfService>dez. de 2022 - O momento</TimeOfService> • 1 mês</span>
+                <span><TimeOfService>dez. de 2022 - O momento</TimeOfService> • 5 mês</span>
                 <span>Santana de Parnaíba, São Paulo - Brasil</span>
                 <DescriptionJob>Desenvolvedor Frontend, criando soluções para atender as necessidades da empresa e interagindo com a integração de novos projetos. Hoje, estamos trabalhando no desenvolvimento de um aplicativo interno utilizando Flutter.</DescriptionJob>
                 <TechsTitle>Techs/Libs/Frameworks:</TechsTitle>
