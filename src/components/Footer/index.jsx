@@ -40,7 +40,7 @@ export function Footer() {
                     <a href="https://api.whatsapp.com/send?phone=++5511960343362&amp;text=Olá, João Victor Genari. Tudo bem? Estou entrando em contato devido .." target="_blank"><RiWhatsappFill /></a>
                 </div>
 
-                <h3>© Copyright 2022</h3>
+                <h3>© Copyright {new Date().getFullYear()}</h3>
                 <span>Portfólio.</span>
             </CopyrightAndSocialMedias>
 
