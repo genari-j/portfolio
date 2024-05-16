@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/victorgenari/portfolio/main/src/assets/ProjectImg/projectImg.jpg">
+<img src="https://raw.githubusercontent.com/victorgenari/portfolio/main/assets/images/general/app.jpg">
 
 # Projeto 'Portfólio' em HTML, CSS e Javascript:
 
