@@ -1,0 +1,122 @@
+.education-container {
+  width: 100%;
+  max-width: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-cards-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.education-card {
+  width: 100%;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  position: relative;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 0 0.5rem 0 var(--gray7);
+}
+
+.education-card
+.fa-solid {
+  width: 4.5rem;
+  height: 4.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.5rem;
+  border-radius: 50%;
+
+  background: var(--black8);
+}
+
+.education-card
+.fa-graduation-cap,
+.fa-computer {
+  position: absolute;
+  top: 0.8rem;
+  left: -2rem;
+
+  font-size: 2.5rem;
+
+  color: var(--white9);
+}
+
+.education-card > h3 {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+
+  text-shadow: 2px 3px 3px var(--gray8);
+}
+
+.education-card > p { font-weight: 500; }
+
+.rocket-and-anhembi-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+
+@media (max-width: 932px) {
+  .education-container { padding: 0 3rem; }
+}
+
+@media (max-width: 838px) {
+  .rocket-and-anhembi-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .education-card
+  .fa-solid {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .education-card
+  .fa-graduation-cap,
+  .fa-computer {
+    top: 1.3rem;
+
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .education-cards-container { margin-top: 1rem; gap: 2rem; }
+
+  .education-card { align-items: flex-start; }
+
+  .education-card
+  .fa-graduation-cap,
+  .fa-computer {
+    top: -1.5rem;
+    left: auto;
+    right: -2rem;
+  }
+
+  .rocket-and-anhembi-container { gap: 2rem; }
+}

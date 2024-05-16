@@ -1,25 +1,393 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang='pt-BR'>
+  <head>
+    <!-- Meta Tags -->
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta name='author' content='João Victor Genari' />
+    <meta name='description' content='Como Programador, minha principal habilidade é desenvolver soluções de software para atender a necessidade do cliente.' />
+    <meta name='keywords' content='HTML, CSS, Stitches, Portfólio, Agenda, Estudante, Programação, João, Victor, Genari, React.js, Node.js, Programming' />
+    <meta property='og:description' content='Como Programador, minha principal habilidade é desenvolver soluções de software para atender a necessidade do cliente.' />
+    <meta property='og:image' content='https://avatars.githubusercontent.com/u/87880392?s=400&u=2b04d0022c884b9198b29114d347936f2c495762&v=4' />
+    <meta property='og:title' content='João Victor Genari - Portfólio' />
+    <meta property='og:type' content='Website' />
+    <meta property='og:url' content='https://victorgenari.vercel.app/' />
+    <!-- Google Fonts -->
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link href='https://fonts.googleapis.com/css2?family=Kalam:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap' rel="stylesheet" />
+    <!-- Scripts -->
+    <script src='./scripts/api.js' defer></script>
+    <script src='./scripts/back-to-top.js' defer></script>
+    <script src='./scripts/copyright.js' defer></script>
+    <script src='./scripts/mobile-menu.js' defer></script>
+    <script src='./scripts/nav-elements.js' defer></script>
+    <script src='./scripts/project-modal.js' defer></script>
+    <script src='./scripts/send-mail.js' defer></script>
+    <script src='./scripts/slide.js' defer></script>
+    <script src='./scripts/time-per-company.js' defer></script>
+    <!-- Cascading Style Sheets -->
+    <link rel='stylesheet' href='./themes/global/global.css' />
+    <link rel='stylesheet' href='./themes/global/header.css' />
+    <link rel='stylesheet' href='./themes/pages/home/career-summary.css' />
+    <link rel='stylesheet' href='./themes/pages/home/profile.css' />
+    <link rel='stylesheet' href='./themes/pages/home/skills.css' />
+    <link rel='stylesheet' href='./themes/pages/home/education.css' />
+    <link rel='stylesheet' href='./themes/pages/home/history.css' />
+    <link rel='stylesheet' href='./themes/pages/home/projects.css' />
+    <link rel='stylesheet' href='./themes/pages/home/contact.css' />
+    <link rel='stylesheet' href='./themes/pages/home/modal.css' />
+    <link rel='stylesheet' href='./themes/pages/home/slides.css' />
+    <link rel='stylesheet' href='./themes/global/footer.css' />
+    <!-- Icons -->
+    <script src='https://kit.fontawesome.com/e8ac874b2c.js' crossorigin='anonymous'></script>
+    <!-- Favicon -->
+    <link rel='icon' type='image/svg+xml' href='./assets/icons/favicon.svg' />
+    <!-- Title -->
+    <title>João Victor Genari - Portfólio</title>
+  </head>
 
-<head>
-  <!-- Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <meta charset="UTF-8" />
+  <body>
+    <div class="container">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <header>
+        <div class="header-content">
+          <div class="header-social-media">
+            <a href="https://github.com/victorgenari" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github"></i> </a>
+            <a href="https://www.linkedin.com/in/victorgenari/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-linkedin"></i> </a>
+            <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-cloud-arrow-down"></i> </a>
+          </div>
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+          <nav>
+            <ul>
+              <li> <a href="#career">INÍCIO</a> </li>
+              <li> <a href="#profile">PERFIL</a> </li>
+              <li> <a href="#skills">HABILIDADES</a> </li>
+              <li> <a href="#education">FORMAÇÃO</a> </li>
+              <li> <a href="#history">HISTÓRICO</a> </li>
+              <li> <a href="#projects">PROJETOS</a> </li>
+              <li> <a href="#contact">CONTATO</a> </li>
+            </ul>
+          </nav>
 
-  <!-- Title -->
-  <title>João Victor Genari - Portfólio</title>
-</head>
+          <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+        <div class="mobile-menu-nav" id="mobileMenu">
+          <ul>
+            <li> <a href="#career">INÍCIO</a> </li>
+            <li> <a href="#profile">PERFIL</a> </li>
+            <li> <a href="#skills">HABILIDADES</a> </li>
+            <li> <a href="#education">FORMAÇÃO</a> </li>
+            <li> <a href="#history">HISTÓRICO</a> </li>
+            <li> <a href="#projects">PROJETOS</a> </li>
+            <li> <a href="#contact">CONTATO</a> </li>
+          </ul>
+        </div>
+      </header>
 
+      <main>
+        <section class="career-summary-container" id="career">
+          <div class="career-summary-content">
+
+            <div class="loading-container">
+              <div class="spinner"></div>
+            </div>
+
+            <img id="avatar" src="" alt="João Victor Genari">
+
+            <h2 id="victors-name"></h2>
+            
+            <p>Comecei minha carreira em maio de 2012, monitorando software, cargas e veículos, com foco em melhorar os processos por meio da análise de informações e sistemas. Já em fevereiro de 2015, tornei-me líder de área, gerenciando processos, identificando falhas e buscando melhorias contínuas em colaboração com vários departamentos.</p>
+            <p>Já em transição de carreira, em julho de 2022, integrei uma equipe de desenvolvimento de aplicações web para Delivery, mantendo o foco principalmente no Frontend, mas também contribuindo para o Backend. Durante esse projeto, trabalhei com tecnologias como React.js, Node.js e Express.js.</p>
+            <p>Em seguida, na empresa atual, participei do desenvolvimento de um aplicativo de segurança e agilidade para os clientes da empresa, utilizando Flutter/Dart e GetX. Participei também, desenvolvendo o Frontend de um sistema para a área de manutenção usando React.js, Typescript, Stitches e ESLint. Além disso, desenvolvi aplicações web, utilizando HTML, CSS e Javascript.</p>
+            <p>Atualmente, estou concentrado em um projeto Fullstack de armazenamento de documentos, utilizando React.js, Typescript, Styled-Components, Node.js e Express.js. Esse projeto atenderá principalmente às auditorias anuais que ocorrem na empresa.</p>
+            <p>Durante essa trajetória, fui proporcionado com habilidades valiosas em monitoramento, liderança, desenvolvimento Frontend e Backend, além de um bom conhecimento em tecnologias como React.js, Node.js e Flutter. Procuro sempre manter o foco no aprimoramento para melhor contribuir ao sucesso dos projetos.</p>
+          
+          </div>
+        </section>
+
+        <section class="profile-container" id="profile">
+          <h2 class="section-title">Perfil Pessoal</h2>
+
+          <div class="profile-content">
+            <img src="./assets/images/general/code.jpg" alt="Imagem respresentativa sobre códigos" title="Imagem respresentativa sobre códigos">
+            <p>Tenho experiência em Frontend, trabalhando com HTML, CSS, Bootstrap, SCSS, SASS, Javascript, React.js, Styled-Components e Stitches, o que me permite criar interfaces responsivas, modernas e agradáveis para o usuário.</p>
+            <p>Além disso, tenho habilidades em ferramentas de versionamento, trabalhando com Git, Github e Gitlab. Dessa forma, é notável maior controle e segurança para os projetos de trabalho.</p>
+            <p>Tenho experiência em Frontend, trabalhando com HTML, CSS, Bootstrap, SCSS, SASS, Javascript, React.js e Styled-Components, o que me permite criar interfaces responsivas, modernas e agradáveis para o usuário.</p>
+            <p>Sou familiarizado com as metodologias ágeis Scrum e Kanban, o que me permite trabalhar em equipe de forma mais eficiente e entregando valor de forma constante.</p>
+            <p>Também tenho experiência em trabalhar com API Rest, NPM, Yarn e Vite, ferramentas essenciais para o desenvolvimento de software moderno.</p>
+            <p>Estou investindo na minha educação, estudando Análise e Desenvolvimento de Sistemas pela Estácio, SP e fazendo cursos profissionalizantes em outras instituições, como Rocketseat e Udemy.</p>
+            <p>Dentro de um ambiente de trabalho, tenho fácil capacidade em trabalhar em equipe e me comunicar com outras pessoas, independente do setor/área.</p>
+            <p>Recentemente consegui minha primeira oportunidade fixa após a migração de área e agora faço parte da equipe de Desenvolvedores da Primi Tecnologia. Sendo assim, apareceu também, a oportunidade de aprender Flutter/Dart para desenvolvimento Mobile.</p>
+          </div>
+        </section>
+
+        <section class="skills-container" id="skills">
+          <h2 class="section-title">Habilidades</h2>
+
+          <div class="skills-content">
+            <div class="skill-card">
+              <div class="skill-top-icon">
+                <div>
+                  <i class="fa-solid fa-file-code"></i>
+                </div>
+              </div>
+              <span><i class="fa-solid fa-check"></i> HTML</span>
+              <span><i class="fa-solid fa-check"></i> CSS (100% Responsive)</span>
+              <span><i class="fa-solid fa-check"></i> React.js - Javascript</span>
+              <span><i class="fa-solid fa-check"></i> Typescript</span>
+              <span><i class="fa-solid fa-check"></i> ESLint</span>
+              <span><i class="fa-solid fa-check"></i> Vite.js</span>
+              <span><i class="fa-solid fa-check"></i> Bootstrap</span>
+              <span><i class="fa-solid fa-check"></i> SCSS</span>
+              <span><i class="fa-solid fa-check"></i> SASS</span>
+              <span><i class="fa-solid fa-check"></i> Styled-Components</span>
+              <span><i class="fa-solid fa-check"></i> Stitches</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-top-icon">
+                <div>
+                  <i class="fa-solid fa-database"></i>
+                </div>
+              </div>
+              <span><i class="fa-solid fa-check"></i> API Restful</span>
+              <span><i class="fa-solid fa-check"></i> Node.js</span>
+              <span><i class="fa-solid fa-check"></i> Express.js</span>
+              <span><i class="fa-solid fa-check"></i> MySQL</span>
+              <span><i class="fa-solid fa-check"></i> Insomnia</span>
+              <span><i class="fa-solid fa-check"></i> Postman</span>
+              <span><i class="fa-solid fa-check"></i> DBeaver</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-top-icon">
+                <div>
+                  <i class="fa-solid fa-code"></i>
+                </div>
+              </div>
+              <span><i class="fa-solid fa-check"></i> Git</span>
+              <span><i class="fa-solid fa-check"></i> Github</span>
+              <span><i class="fa-solid fa-check"></i> Gitlab</span>
+              <span><i class="fa-solid fa-check"></i> NPM</span>
+              <span><i class="fa-solid fa-check"></i> Yarn</span>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="education-container" id="education">
+          <h2 class="section-title">Formação Acadêmica</h2>
+
+          <div class="education-cards-container">
+            <div class="education-card">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>🠚 Faculdade Estácio, SP</h3>
+              <p>Análise e Desenvolvimento de Sistemas</p>
+              <p>Janeiro 2022 - Julho 2024</p>
+            </div>
+
+            <div class="rocket-and-anhembi-container">
+              <div class="education-card">
+                <i class="fa-solid fa-computer"></i>
+                <h3>🠚 Rocketseat</h3>
+                <p>Ignite - React.js</p>
+                <p>Fevereiro 2022 - Novembro 2022</p>
+              </div>
+
+              <div class="education-card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>🠚 Universidade Anhembi Morumbi</h3>
+                <p>Gestão Comercial</p>
+                <p>Janeiro 2020 - Maio 2021</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="history-container" id="history">
+          <h2 class="section-title">Histórico Profissional</h2>
+
+          <div class="history-content">
+            <div class="history-card">
+              <h3>Fullstack Developer</h3>
+              <span><i class="fa-solid fa-building"></i> Primi Tecnologia</span>
+              <span><i class="fa-solid fa-calendar-check"></i> <span id="timePerCompany"></span></span>
+              <span><i class="fa-solid fa-location-dot"></i> Santana de Parnaíba, SP, Brasil</span>
+              <p>Trabalhando como Desenvolvedor Júnior, no momento estou atuando em um sistema Fullstack de armazenamento de documentos, solução que permite aos colaboradores encontrar procedimentos da empresa e documentos vinculados aos seus departamentos, além de conseguirem cadastrar novos documentos. Também desenvolvo e matenho integrações com outros sistemas, como um Sistema de Chamados voltado para a área de manutenção e alguns Sites Web.</p>
+              <span class="techs-title">Techs/Libs/Frameworks:</span>
+              <span><i class="fa-solid fa-circle"></i> Javascript</span>
+              <span><i class="fa-solid fa-circle"></i> Typescript</span>
+              <span><i class="fa-solid fa-circle"></i> React.js</span>
+              <span><i class="fa-solid fa-circle"></i> Node.js</span>
+              <span><i class="fa-solid fa-circle"></i> AWS</span>
+              <span><i class="fa-solid fa-circle"></i> MySQL</span>
+              <span><i class="fa-solid fa-circle"></i> Docker</span>
+              <span><i class="fa-solid fa-circle"></i> GIT</span>
+              <span><i class="fa-solid fa-circle"></i> Scrum</span>
+              <span><i class="fa-solid fa-circle"></i> Kanban</span>
+            </div>
+
+            <div class="history-card">
+              <h3>Frontend Developer (Freelancer)</h3>
+              <span><i class="fa-solid fa-building"></i> XC Tech</span>
+              <span><i class="fa-solid fa-calendar-check"></i> Jul. 2022 - Dez. 2022 • 6 meses</span>
+              <span><i class="fa-solid fa-location-dot"></i> Barueri, SP, Brasil</span>
+              <p>Trabalhei junto à squad no desenvolvimento de uma aplicação de Delivery. Meu foco maior foi o Frontend, porém também participei de algumas funcionalidades do Backend.</p>
+              <span class="techs-title">Techs/Libs/Frameworks:</span>
+              <span><i class="fa-solid fa-circle"></i> Javascript</span>
+              <span><i class="fa-solid fa-circle"></i> React.js</span>
+              <span><i class="fa-solid fa-circle"></i> Node.js</span>
+              <span><i class="fa-solid fa-circle"></i> MySQL</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects-container" id="projects">
+          <h2 class="section-title">Principais Projetos</h2>
+
+          <div class="projects-content">
+            <div class="project-card">
+              <img src="./assets/images/projects/deliveryStoreTwo.jpg" alt="Delivery App" title="Delivery App">
+              <h3>Delivery App</h3>
+              <p>Responsável pelo desenvolvimento completo de um aplicativo de delivery, destacando o Front-end em React.js e contribuições no Back-end em Node.js.</p>
+              <button type="button" class="project-detail" data-project-id="1">Detalhe</button>
+              <a href="https://github.com/victorgenari/delivery-frontend-store" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/techs/github.png" alt="Github Icon" title="Github Icon">
+                REPOSITÓRIO
+              </a>
+            </div>
+
+            <div class="project-card" data-project-id="2">
+              <img src="./assets/images/projects/smile-sphere.bmp" alt="Smile Sphere" title="Smile Sphere">
+              <h3>Smile Sphere</h3>
+              <p>Desenvolvimento de sistema de cadastro de pacientes com plataforma intuitiva, incluindo funcionalidades de cadastro, edição e remoção de registros.</p>
+              <button type="button" class="project-detail" data-project-id="2">Detalhe</button>
+              <a href="https://github.com/victorgenari/smile-sphere" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/techs/github.png" alt="Github Icon" title="Github Icon">
+                REPOSITÓRIO
+              </a>
+            </div>
+
+            <div class="project-card" data-project-id="2">
+              <img src="./assets/images/projects/cardInRealTime.jpg" alt="Card In Real Time" title="Card In Real Time">
+              <h3>Card In Real Time</h3>
+              <p>Simulação interativa de design de cartões bancários, com visualização em tempo real e personalização intuitiva, incluindo dados pessoais adicionais.</p>
+              <button type="button" class="project-detail" data-project-id="3">Detalhe</button>
+              <a href="https://github.com/victorgenari/card-in-real-time" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/techs/github.png" alt="Github Icon" title="Github Icon">
+                REPOSITÓRIO
+              </a>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div id="projects-modal" class="modal">
+            <div class="modal-first-content">
+              <i id="modal-close" class="fa-solid fa-circle-xmark"></i>
+              <div class="modal-content"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-container" id="contact">
+          <h2 class="section-title">Contato</h2>
+
+          <h3>Me envie uma mensagem 🠚</h3>
+
+          <form id="contact-form">
+            <div>
+              <div class="group-form">
+                <label for="name">Nome:</label>
+                <input type="text" placeholder="Seu nome" id="name" name="name">
+              </div>
+
+              <div class="group-form">
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="Seu email" id="email" name="email">
+              </div>
+            </div>
+
+            <div>
+              <div class="group-form">
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message" placeholder="Insira uma mensagem ..."></textarea>
+              </div>
+
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+
+          <div class="missing-form-values-container">
+            <p class="missing-form-message"></p>
+          </div>
+        </section>
+
+        <section class="slide-container">
+          <div class="slider">
+            <img id="img-1" src="./assets/images/techs/html-5.png" alt="HTML-5" title="HTML-5" />
+            <img id="img-2" src="./assets/images/techs/css.png" alt="CSS-3" title="CSS-3" />
+            <img id="img-3" src="./assets/images/techs/js.png" alt="Javascript" title="Javascript" />
+            <img id="img-4" src="./assets/images/techs/typescript.png" alt="Typescript" title="Typescript" />
+            <img id="img-5" src="./assets/images/techs/react.png" alt="React.js" title="React.js" />
+            <img id="img-6" src="./assets/images/techs/nodejs.png" alt="Node.js" title="Node.js" />
+            <img id="img-7" src="./assets/images/techs/mysql.png" alt="MySQL" title="MySQL" />
+            <img id="img-8" src="./assets/images/techs/social.png" alt="Git" title="Git" />
+            <img id="img-9" src="./assets/images/techs/github.png" alt="Github" title="Github" />
+          </div>
+          <div class="navigation-button">
+            <span class="dot active-slide" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+            <span class="dot" onclick="changeSlide(3)"></span>
+            <span class="dot" onclick="changeSlide(4)"></span>
+            <span class="dot" onclick="changeSlide(5)"></span>
+            <span class="dot" onclick="changeSlide(6)"></span>
+            <span class="dot" onclick="changeSlide(7)"></span>
+            <span class="dot" onclick="changeSlide(8)"></span>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-content">
+          <div class="footer-social-media-container">
+            <div>
+              <a href="https://github.com/victorgenari" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-github"></i> </a>
+              <a href="https://www.linkedin.com/in/victorgenari/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-linkedin"></i> </a>
+              <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-cloud-arrow-down"></i> </a>
+              <a href="mailto:victor.olr@hotmail.com" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-envelope"></i> </a>
+              <a href="https://open.spotify.com/user/95ipj1kak7uowxh35xzcs4apw?si=4ca987a39f0c431b" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-spotify"></i> </a>
+            </div>
+
+            <div>
+              <span>João Victor Genari</span>
+              <span id="copyright"></span>
+            </div>
+          </div>
+
+          <div class="footer-navigation">
+            <a href="#career">INÍCIO</a>
+            <a href="#profile">PERFIL</a>
+            <a href="#skills">HABILIDADES</a>
+            <a href="#education">FORMAÇÃO</a>
+            <a href="#history">HISTÓRICO</a>
+            <a href="#projects">PROJETOS</a>
+            <a href="#contact">CONTATO</a>
+          </div>
+        </div>
+      </footer>
+
+      <button type="button" id="backToTopBtn">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
+    </div>
+  </body>
 </html>
