@@ -10,12 +10,12 @@ Através deste projeto, espero destacar minha identidade visual, personalidade e
 
 ## Estrutura:
 
-- assets ->
-- scripts ->
-- themes ->
-- .gitignore ->
-- index.html ->
-- readme.md ->
+- assets -> Pasta com as imagens do projeto;
+- scripts -> Arquivos Javascript separados por funções;
+- themes -> Estilos Globais, Cores & separação por páginas;
+- .gitignore -> Arquivos necessários ser ignorados para não subirem para o repositório;
+- index.html -> Arquivo responsável em coordenador o funcionamento da landing page da aplicação;
+- readme.md -> Arquivo responsável em criar um resumo do funcionamento da aplicação;
 
 ## Techs/libs utilizadas:
 
@@ -23,20 +23,3 @@ Através deste projeto, espero destacar minha identidade visual, personalidade e
 - HTML;
 - CSS;
 - Javascript;
-
-## Informações necessárias para arrumar/melhorar:
-
-Revisão:
-Aline Akaki (Java - Tech Lead)
-
-Portfólio:
-- Questão de layout ficou ok;
-- Contar um pouco sobre a transição de carreira, ao lado da foto
-- Descrição sobre mim no currículo, diminuir mais e no portfólio aumentar
-
-Currículo:
-- Sobre fotos e cores, tem gente que fala que prefere modelos tradicionais (no caso, sem isso);
-- As descrições de trabalho ficaram muito rasas (é interessante detalhar melhor o que faz)
-- Experiências informadas somente sobre a área de TI (o que real importa - passar isso tbm p/ portfólio)
-- Pensar em mudar a parte de: “o que me permite criar interfaces resposivas, modernas e agradáveis para o usuário” para: “Tenho experiência com front end e desenvolvimento de interface responsiva utilizando x teclonogias”
-- Remover a frase que fala sobre investimento em formação, pois na formação acadêmica já tem
