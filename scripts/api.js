@@ -1,5 +1,5 @@
-const githubUser = "https://api.github.com/users/victorgenari"
-const githubUserRepos = "https://api.github.com/users/victorgenari/repos"
+const githubUser = "https://api.github.com/users/genari-j"
+const githubUserRepos = "https://api.github.com/users/genari-j/repos"
 
 async function getAPI(url) {
   try {

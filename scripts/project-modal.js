@@ -34,7 +34,7 @@ const projects = [
       { id: 3, functionality: 'Atualize informações sobre produtos existentes;' },
       { id: 4, functionality: 'Remova qualquer item da aplicação com facilidade.' }
     ],
-    repository: 'https://github.com/victorgenari/delivery-frontend-store'
+    repository: 'https://github.com/genari-j/delivery-frontend-store'
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const projects = [
     ],
     name: 'Smile Sphere',
     description: 'Este projeto simula um sistema de cadastro de pacientes, oferecendo uma plataforma intuitiva e eficiente para gerenciar informações de saúde. Para utilizar a aplicação, é necessário realizar um rápido cadastro e efetuar o login. Uma vez logado, o usuário obtém acesso completo às funcionalidades da aplicação. É possível cadastrar novos pacientes, os quais serão listados ordenadamente na tela principal. Além disso, a aplicação permite a edição e remoção dos registros de pacientes, proporcionando flexibilidade e controle sobre os dados.',
-    repository: 'https://github.com/victorgenari/smile-sphere'
+    repository: 'https://github.com/genari-j/smile-sphere'
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const projects = [
     ],
     name: 'Card In Real Time',
     description: 'Este projeto foi concebido como uma simulação para demonstrar uma proposta de design para cartões bancários. À medida que os dados são inseridos no formulário, eles são exibidos em tempo real no layout do cartão, proporcionando uma visualização imediata e interativa. Além disso, a aplicação permite a inclusão de dados pessoais adicionais, fornecendo informações completas para futuras considerações sobre a proposta apresentada. Este projeto visa oferecer uma experiência intuitiva e informativa na personalização de cartões bancários.',
-    repository: 'https://github.com/victorgenari/card-in-real-time'
+    repository: 'https://github.com/genari-j/card-in-real-time'
   }
 ]
 
