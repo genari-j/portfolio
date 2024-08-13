@@ -1,6 +1,8 @@
 .projects-container {
   width: 100%;
   max-width: 1000px;
+
+  padding: 5rem 0;
 }
 
 .projects-content {
@@ -92,6 +94,6 @@
 
 @media (max-width: 1045px) {
   .projects-container {
-    padding: 0 1rem;
+    padding: 3rem 1rem;
   }
 }

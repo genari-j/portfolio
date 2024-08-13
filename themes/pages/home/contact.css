@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding: 5rem 0;
 }
 
 .contact-container h3 {
@@ -75,7 +77,7 @@
 
 /* RESPONSIVE LAYOUT */
 @media (max-width: 895px) {
-  .contact-container { padding: 0 1rem; }
+  .contact-container { padding: 3rem 1rem; }
 }
 
 @media (max-width: 475px) {

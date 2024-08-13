@@ -36,10 +36,9 @@
 
 .career-summary-content > p { color: var(--white9); }
 
-.career-summary-content > p:nth-child(3),
-.career-summary-content > p:nth-child(4),
-.career-summary-content > p:nth-child(5),
-.career-summary-content > p:nth-child(6) { margin-bottom: 1rem; }
+.career-summary-content > p:not(:last-child) {
+  margin-bottom: 1rem;
+}
 
 .career-summary-content > h2 {
   font-weight: 500;

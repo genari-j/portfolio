@@ -10,8 +10,8 @@
   border: none;
   list-style: none;
 
-  font-family: 'Montserrat', 'Poppins', 'Roboto', Arial, Helvetica, sans-serif;
-  font-weight: 400
+  font-family: 'Poppins', 'Montserrat', 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 html { scroll-behavior: smooth; }
@@ -55,7 +55,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
 }
 
 

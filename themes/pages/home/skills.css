@@ -6,6 +6,8 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+
+  padding: 5rem 0;
 }
 
 .skills-content {
@@ -66,7 +68,7 @@
 
 
 @media (max-width: 1065px) {
-  .skills-container { padding: 0 1rem; }
+  .skills-container { padding: 3rem 1rem; }
 }
 
 @media (max-width: 782px) {
