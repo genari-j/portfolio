@@ -70,7 +70,7 @@
   border: 2px solid transparent;
   background: var(--gray6);
 }
-.group-form textarea { height: 4.6rem; }
+.group-form textarea { height: 5.15rem; }
 .group-form input:hover, textarea:hover { border: 2px solid var(--gray9); }
 .group-form input:focus, textarea:focus { border: 2px solid var(--blue9); }
 
