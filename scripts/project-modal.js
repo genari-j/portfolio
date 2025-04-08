@@ -14,8 +14,33 @@ const projects = [
   {
     id: 1,
     image: [
-      { id: 1, img: '../assets/images/projects/deliveryStoreTwo.jpg' },
-      { id: 2, img: '../assets/images/projects/deliveryStoreOne.jpg' }
+      { id: 1, img: '../assets/images/projects/smile-sphere/smile-s-first.webp' },
+      { id: 2, img: '../assets/images/projects/smile-sphere/smile-s-second.webp' },
+      { id: 3, img: '../assets/images/projects/smile-sphere/smile-s-third.webp' },
+      { id: 4, img: '../assets/images/projects/smile-sphere/smile-s-fourth.webp' }
+    ],
+    name: 'Smile Sphere',
+    description: 'A Aplicação foi criada com o intuito de simular um controle para clínica de Dentista. Possi funcionalidades de cadastrar pacientes, agendamentos, doutores, usuários para o sistema, funcionalidade de Login e outras. A API foi desenvolvida Node.js (Fastify, Prisma, MySQL e etc).',
+    repository: 'https://github.com/genari-j/smile-sphere-front'
+  },
+  {
+    id: 2,
+    image: [
+      { id: 1, img: '../assets/images/projects/adapt-control/adapt-c-first.webp' },
+      { id: 2, img: '../assets/images/projects/adapt-control/adapt-c-second.webp' },
+      { id: 3, img: '../assets/images/projects/adapt-control/adapt-c-third.webp' },
+      { id: 4, img: '../assets/images/projects/adapt-control/adapt-c-fourth.webp' },
+      { id: 5, img: '../assets/images/projects/adapt-control/adapt-c-fifth.webp' },
+    ],
+    name: 'Adapt Control',
+    description: 'A Aplicação foi criada com o intuito de simular um controle de estoque para qualquer tipo de comércia, seja um mercado, loja ou equivalente. Possi funcionalidades de cadastrar, produtos, editá-los, usuários para o sistema, funcionalidade de Login e outras. A API foi desenvolvida Node.js (Fastify, Prisma, MySQL e etc).',
+    repository: 'https://github.com/genari-j/adapt-control-front'
+  },
+  {
+    id: 3,
+    image: [
+      { id: 1, img: '../assets/images/projects/delivery/deliveryStoreTwo.jpg' },
+      { id: 2, img: '../assets/images/projects/delivery/deliveryStoreOne.jpg' }
     ],
     name: 'Delivery App',
     description: 'Este projeto abrange o desenvolvimento completo de uma aplicação de delivery, com ênfase no Front-end construído em React.js e um Back-end operando em Node.js, ambos continuamente atualizados durante o processo de desenvolvimento. No Front-end, diversas funcionalidades e interações já estão operacionais, integradas através de uma API Rest com um conjunto de regras estabelecidas. Embora o foco principal seja o desenvolvimento Front-end, também assumo responsabilidades na implementação de funcionalidades no Back-end.',
@@ -35,24 +60,6 @@ const projects = [
       { id: 4, functionality: 'Remova qualquer item da aplicação com facilidade.' }
     ],
     repository: 'https://github.com/genari-j/delivery-frontend-store'
-  },
-  {
-    id: 2,
-    image: [
-      { id: 1, img: '../assets/images/projects/smile-sphere.bmp' }
-    ],
-    name: 'Smile Sphere',
-    description: 'Este projeto simula um sistema de cadastro de pacientes, oferecendo uma plataforma intuitiva e eficiente para gerenciar informações de saúde. Para utilizar a aplicação, é necessário realizar um rápido cadastro e efetuar o login. Uma vez logado, o usuário obtém acesso completo às funcionalidades da aplicação. É possível cadastrar novos pacientes, os quais serão listados ordenadamente na tela principal. Além disso, a aplicação permite a edição e remoção dos registros de pacientes, proporcionando flexibilidade e controle sobre os dados.',
-    repository: 'https://github.com/genari-j/smile-sphere'
-  },
-  {
-    id: 3,
-    image: [
-      { id: 1, img: '../assets/images/projects/cardInRealTime.jpg' }
-    ],
-    name: 'Card In Real Time',
-    description: 'Este projeto foi concebido como uma simulação para demonstrar uma proposta de design para cartões bancários. À medida que os dados são inseridos no formulário, eles são exibidos em tempo real no layout do cartão, proporcionando uma visualização imediata e interativa. Além disso, a aplicação permite a inclusão de dados pessoais adicionais, fornecendo informações completas para futuras considerações sobre a proposta apresentada. Este projeto visa oferecer uma experiência intuitiva e informativa na personalização de cartões bancários.',
-    repository: 'https://github.com/genari-j/card-in-real-time'
   }
 ]
 
